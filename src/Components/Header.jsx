@@ -100,7 +100,7 @@ function Header() {
                                             <ul className="menu-list">
 
                                                 <li className="has-sub menu-item">
-                                                    <a href="index.html" className="d-flex align-item-center item-anchor" data-effect="Home">Home<i className="icon icon-chevron-down"></i></a>
+                                                    <Link to={'../Home'} className="d-flex align-item-center item-anchor" data-effect="Home">Home<i className="icon icon-chevron-down"></i></Link>
                                                     <ul className="submenu">
                                                         <li><a href="index.html" className="item-anchor">Home</a></li>
                                                         <li><a href="home2.html" className="item-anchor">Home v2<span className="text-primary"> (PRO)</span></a></li>
