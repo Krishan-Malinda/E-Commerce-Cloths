@@ -16,7 +16,7 @@ function LandImageDiv(props) {
                             <h1 className="page-title">{props.pageName}</h1>
                             <div className="breadcrumbs">
                                 <span className="item">
-                                    <a href="index.html">{props.name1} /</a>
+                                    <a href="index.html">{props.name1}</a>
                                 </span>
                                 <span className="item">{props.name2}</span>
                             </div>

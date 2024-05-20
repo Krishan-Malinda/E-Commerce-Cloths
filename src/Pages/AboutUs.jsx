@@ -13,7 +13,7 @@ function AboutUs() {
         <>
             <Header />
 
-            <LandImageDiv img="../../src/assets/images/hero-image.jpg" pageName="About Us" name1="Home" name2="About" />
+            <LandImageDiv img="../../src/assets/images/hero-image.jpg" pageName="About Us" name1="Home /" name2="About" />
             <section id="shipping-information" className="padding-large">
                 <div className="container">
                     <div className="d-flex flex-wrap justify-content-between align-items-center row">

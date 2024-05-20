@@ -12,7 +12,7 @@ function Blog() {
         <>
             <Header />
 
-            <LandImageDiv img="../../src/assets/images/hero-image1.jpg" pageName="Blog page" name1="Home" name2="Blog" />
+            <LandImageDiv img="../../src/assets/images/hero-image1.jpg" pageName="Blog page" name1="Home /" name2="Blog" />
             <section id="latest-blog" className="post-grid padding-large">
                 <div className="container">
                     <div className="d-flex flex-wrap row">
