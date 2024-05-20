@@ -19,6 +19,9 @@ function LandImageDiv(props) {
                                     <a href="index.html">{props.name1}</a>
                                 </span>
                                 <span className="item">{props.name2}</span>
+                                <span className="item">
+                                    <a href="login.html">{props.name3}</a>
+                                </span>
                             </div>
                         </div>
                     </div>
