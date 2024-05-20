@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -106,10 +107,11 @@ function Header() {
                                                     </ul>
                                                 </li>
 
-                                                <li><a href="about.html" className="item-anchor active" data-effect="About">About</a></li>
+                                                <li><Link to={'../AboutUs'} className="item-anchor active" data-effect="About">About</Link></li>
+                                                {/* <li><a href="about.html" className="item-anchor active" data-effect="About">About</a></li> */}
 
                                                 <li className="has-sub menu-item">
-                                                    <a href="shop.html" className="d-flex align-item-center item-anchor" data-effect="Shop">Shop<i className="icon icon-chevron-down"></i></a>
+                                                    <Link to={ '../Shop'} className="d-flex align-item-center item-anchor" data-effect="Shop">Shop<i className="icon icon-chevron-down"></i></Link>
                                                     <ul className="submenu">
                                                         <li><a href="shop.html" className="item-anchor">Shop</a></li>
                                                         <li><a href="shop-slider.html" className="item-anchor">Shop slider<span className="text-primary"> (PRO)</span></a></li>
@@ -135,7 +137,7 @@ function Header() {
                                                 </li>
 
                                                 <li className="has-sub menu-item">
-                                                    <a href="blog.html" className="d-flex align-item-center item-anchor" data-effect="Blog">Blog<i className="icon icon-chevron-down"></i></a>
+                                                    <Link to={'../Blog'} className="d-flex align-item-center item-anchor" data-effect="Blog">Blog<i className="icon icon-chevron-down"></i></Link>
                                                     <ul className="submenu">
                                                         <li><a href="blog.html" className="item-anchor">Blog</a></li>
                                                         <li><a href="blog-sidebar.html" className="item-anchor">Blog with sidebar<span className="text-primary"> (PRO)</span></a></li>
@@ -144,7 +146,7 @@ function Header() {
                                                     </ul>
                                                 </li>
 
-                                                <li><a href="contact.html" className="item-anchor" data-effect="Contact">Contact</a></li>
+                                                <li><Link to={'../ContactUs'} className="item-anchor" data-effect="Contact">Contact</Link></li>
 
                                             </ul>
                                         </div>
