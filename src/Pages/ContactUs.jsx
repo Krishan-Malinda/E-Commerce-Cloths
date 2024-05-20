@@ -3,9 +3,8 @@ import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import LandImageDiv from '../Components/LandImageDiv'
-import Artical from '../Components/Artical'
 import InstaPicCard from '../Components/InstaPicCard'
-import SmallCard from '../Components/SmallCard'
+import SmallCardSet from '../Components/SmallCardSet'
 
 function ContactUs() {
 
@@ -125,18 +124,7 @@ function ContactUs() {
                 </div>
             </section>
 
-            <section id="shipping-information">
-                <hr />
-                <div className="container">
-                    <div className="d-flex flex-wrap justify-content-between align-items-center row">
-                        <SmallCard icon="icon icon-truck" bolt="Free shipping" light="Over $200" />
-                        <SmallCard icon="icon icon-return" bolt="Money back" light="Return within 7 days" />
-                        <SmallCard icon="icon icon-tags1" bolt="Buy 4 get 5th" light="50% off" />
-                        <SmallCard icon="icon icon-help_outline" bolt="Any questions?" light="experts are ready" />
-                    </div>
-                </div>
-                <hr />
-            </section>
+            <SmallCardSet />
 
             <Footer />
         </>

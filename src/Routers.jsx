@@ -2,6 +2,7 @@ import App from "./App";
 import AboutUs from "./Pages/AboutUs";
 import Blog from "./Pages/Blog";
 import ContactUs from "./Pages/ContactUs";
+import Shop from "./Pages/Shop";
 
 export const routes = [
     {
@@ -19,5 +20,9 @@ export const routes = [
     {
         path: "/ContactUs",
         element: <ContactUs />,
+    },
+    {
+        path: "/Shop",
+        element: <Shop />,
     },
 ];

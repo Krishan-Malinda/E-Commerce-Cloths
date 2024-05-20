@@ -6,6 +6,7 @@ import LandImageDiv from '../Components/LandImageDiv'
 import Artical from '../Components/Artical'
 import InstaPicCard from '../Components/InstaPicCard'
 import SmallCard from '../Components/SmallCard'
+import PageSwitcher from '../Components/PageSwitcher'
 
 function Blog() {
     return (
@@ -65,19 +66,7 @@ function Blog() {
                             category="Trending"
                         />
                     </div>
-                    <nav className="text-center navigation padding-medium paging-navigation" role="navigation">
-                        <div className="d-flex justify-content-center loop-pagination pagination">
-                            <a href="#" className="d-flex align-items-center pagination-arrow">
-                                <i className="icon-arrow-left icon"></i>
-                            </a>
-                            <span aria-current="page" className="current page-numbers">1</span>
-                            <a className="page-numbers" href="#">2</a>
-                            <a className="page-numbers" href="#">3</a>
-                            <a href="#" className="d-flex align-items-center pagination-arrow">
-                                <i className="icon-arrow-right icon"></i>
-                            </a>
-                        </div>
-                    </nav>
+                    <PageSwitcher />
                 </div>
             </section>
 
