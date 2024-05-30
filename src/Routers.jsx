@@ -3,11 +3,20 @@ import AboutUs from "./Pages/AboutUs";
 import Blog from "./Pages/Blog";
 import ContactUs from "./Pages/ContactUs";
 import Shop from "./Pages/Shop";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
+import Home from "./Pages/Home";
+import AdminDashBoard from "./Pages/AdminDashBoard";
+import CusDashboard from "./Pages/CusDashboard";
 
 export const routes = [
     {
         path: "/",
-        element: <App />,
+        element: <Home />,
+    },
+    {
+        path: "/Home",
+        element: <Home />,
     },
     {
         path: "/AboutUs",
@@ -24,5 +33,21 @@ export const routes = [
     {
         path: "/Shop",
         element: <Shop />,
+    },
+    {
+        path: "/Login",
+        element: <Login />,
+    },
+    {
+        path: "/Register",
+        element: <Register />,
+    },
+    {
+        path: "/AdminDashboard",
+        element: <AdminDashBoard />,
+    },
+    {
+        path: "/CustomerDashboard",
+        element: <CusDashboard />,
     },
 ];
